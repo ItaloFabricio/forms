@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background: #EBEBEB;   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.formLogin{
+    width: 400px;
+    margin: 150px auto;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: rgba(192, 192, 192, 0.2) 0px 10px 16px 0px;
+}
+
+fieldset{
+    border: 0;
+}
+
+legend{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    color:blueviolet;
+}
+
+label{
+    margin-left: 12px;
+    display: inline-block;
+    margin-bottom: 6px;
+    color: #686868;
+    font-weight: medium;
+}
+
+#user, #pass, .btn{
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 32px;
+}
+
+#user, #pass{
+    margin-bottom: 24px;
+    border: 1px solid #EBEBEB;
+}
+
+#user:focus, #pass:focus{
+    border: 1px solid blueviolet;
+}
+
+#user::placeholder, #pass::placeholder{
+    color: #b4b4b4;
+}
+
+input{
+    padding: 0 24px 0 24px;
+    font-size: 1rem;
+    color:blueviolet
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.btn{
+    border: 0;
+    margin-top: 16px;
+    color:white;
+    background: blueviolet;
+    font-weight: bold;
+}
+
+
