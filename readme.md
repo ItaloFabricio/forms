@@ -5,4 +5,4 @@ Esse projeto foi um estudo realizado durante o curso FrontStart com objetivo de 
 
 **Aprendizados**
 - Tags html para formulários como: form, input, checkbox
-- Css: pocionar elementos usando o display inline block e position absolute
+- Css: posicionar elementos usando o display inline block e position absolute
