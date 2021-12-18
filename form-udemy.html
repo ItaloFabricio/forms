@@ -6,24 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="form-udemy.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
 
     <form action="#" method="POST" class="formLogin">
 
         <fieldset>
-            <legend>Faça login</legend>
-
-            <label for="user">Usuário ou email</label>
-            <input type="text" id="user" name="user" autofocus placeholder="Digite aqui o seu user ou email ">
-
-            <label for="pass">Senha</label>
-            <input type="password" id="pass" name="pass" placeholder="Digite sua senha">
-
+            <legend>FAÇA LOGIN</legend>
+            <div class="input-container">
+                <label for="user">Usuário ou email</label>
+                <input type="text" id="user" name="user" autofocus placeholder="Digite aqui o seu user ou email ">
+                <i data-feather="user"></i>
+            </div>
+            
+            <div class="input-container">
+                <label for="pass">Senha</label>
+                <input type="password" id="pass" name="pass" placeholder="Digite sua senha">
+                <i data-feather="lock"></i>
+            </div>
             <input type="submit" value="Fazer login" class="btn">
         </fieldset>
-
     </form>
+
+
+    <script>
+        feather.replace()
+      </script>
 
 </body>
 </html>

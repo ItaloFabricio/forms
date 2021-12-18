@@ -16,6 +16,17 @@ body{
     box-shadow: rgba(192, 192, 192, 0.2) 0px 10px 16px 0px;
 }
 
+.formLogin .input-container{
+    position:relative;
+}
+
+svg{
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 2px);
+    color: #E4E4E4;
+}
+
 fieldset{
     border: 0;
 }
@@ -25,6 +36,7 @@ legend{
     font-size: 1.5rem;
     margin-bottom: 32px;
     color:blueviolet;
+    font-weight: bold;
 }
 
 label{
@@ -56,7 +68,7 @@ label{
 }
 
 input{
-    padding: 0 24px 0 24px;
+    padding: 0 48px 0 24px;
     font-size: 1rem;
     color:blueviolet
 }
