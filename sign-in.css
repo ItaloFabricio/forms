@@ -19,6 +19,7 @@ botão: #82D7B0;
     background: white;
     margin: 150px auto;
     width: 400px;
+    border-radius: 16px;
 }
 
 form{
@@ -27,6 +28,7 @@ form{
 
 form h3{
     text-align: center;
+    color: #82D7B0;
 }
 
 form .input-container{
@@ -52,7 +54,7 @@ form input[type="submit"]{
 form .input-container input{
     border: 1px solid #E4E4E4;
     color:#818181;
-    padding: 0 64px 0 25px;
+    padding: 0 24px 0 64px;
     font-size: 1rem;
 }
 
@@ -62,9 +64,9 @@ form .input-container input::placeholder{
 
 svg{
     position: absolute;
-    right: 20px;
+    left: 20px;
     top: calc(50% - 12px);
-    color: #818181;
+    color: #E4E4E4;
 }
 
 .options-container{
